@@ -1,6 +1,7 @@
+<?php include_once "../includes/db.php"; ?>
+<?php include_once "functions.php"; ?>
 <!--output buffering, needs this when we are redirecting pieces of code in our application. it will send all our request at the same time -->
 <?php ob_start(); ?>
-<?php include_once "../includes/db.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
