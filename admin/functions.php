@@ -57,4 +57,10 @@ function delete_categories(){
     header("Location: categories.php");
 }
 }
+function confirm($result){
+  global $connection;
+  if(!$result){
+  die("query failed" . mysqli_error($connection));
+}
+}
 ?>

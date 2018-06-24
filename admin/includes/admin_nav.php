@@ -72,7 +72,7 @@
                         <a href="posts.php"> View Post</a>
                     </li>
                     <li>
-                        <a href="includes/add_post.php"> Add Post</a>
+                        <a href="posts.php?source=add_post"> Add Post</a>
                     </li>
                 </ul>
             </li>
